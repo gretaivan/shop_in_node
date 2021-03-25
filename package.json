@@ -1,0 +1,26 @@
+{
+  "name": "shop_in_node",
+  "version": "1.0.0",
+  "description": "A program to learn REST API development",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gretaivan/shop_in_node.git"
+  },
+  "keywords": [
+    "API",
+    "REST",
+    "Node.js",
+    "Docker",
+    "shop"
+  ],
+  "author": "Greta Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gretaivan/shop_in_node/issues"
+  },
+  "homepage": "https://github.com/gretaivan/shop_in_node#readme"
+}
