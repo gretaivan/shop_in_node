@@ -2,3 +2,4 @@ node_modules
 db
 db/helpers.js
 db/setup.js
+coverage

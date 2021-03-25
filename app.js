@@ -4,10 +4,12 @@ const app = express();
 
 app.use(cors()); 
 
-app.use((req, res) => {
-    res.status(200).json({
-        message: 'Shop API rendered a welcome message to you!'
-    });
+app.get("/", (req, res) => {
+    res.status(200).send('Shop API rendered a welcome message to you!');
+    //.json({
+     //   message: 'Shop API rendered a welcome message to you!'
+   // });
+   
 });
 
 
